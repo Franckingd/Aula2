@@ -1,2 +1,23 @@
-/**/
+h1{
+    text-align: center;
+    padding: 5%;
+}
+input{
+    text-align: center;
+    margin: 5%;
+    border-color: black;
+}
+label{
+    margin-left: 15%;
+}
+#btnCalcImc{
+    border-radius: 4%;
+    margin-left: 48%;
+}
+#resultado{
+    height: 100%;
+    width: 30%;
+    background-color: blanchedalmond;
+}
+
 
