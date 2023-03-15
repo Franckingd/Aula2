@@ -13,20 +13,21 @@
 </head>
 <body>
 
-    <h1 id="titulo">CALCULADORA DE IMC</h1>
-    <label>Nome:</label>
-    <input type="text" placeholder="Insira seu nome" id="nome">
+    <div class="container">
+    <h1 class="col-12" id="titulo">CALCULADORA DE IMC</h1>
+    <label class="text col-12 py-2">Nome:</label>
+    <input class="row col-7 mx-auto" type="text" placeholder="Insira seu nome" id="nome">
     <br>
-    <label for="inputmassa">Massa:</label>
-    <input type="number" placeholder="Insira sua massa em Kg" id="massa" name="inputmassa" step="0.1">
+    <label class="text col-12 py-2" for="inputmassa">Massa:</label>
+    <input class="row col-7 mx-auto" type="number" placeholder="Massa em Kg" id="massa" name="inputmassa" step="0.1">
     <br>
-    <label for="inputaltura">Altura:</label>
-    <input for="number" placeholder="Insira sua altura em metros" id="altura" name="inputaltura" step="0.01" >
+    <label class="text col-12 py-2" for="inputaltura">Altura:</label>
+    <input class="row col-7 mx-auto" for="number" placeholder="Altura em metros" id="altura" name="inputaltura" step="0.01" >
     <br>
-    <input type="button" value="Calcular" id="btnCalcImc" onclick="calcIMC()">
+    <input class="row mx-auto" type="button" value="Calcular" id="btnCalcImc" onclick="calcIMC()">
     <br>
-    <p id="resultado"></p>
-    <p id="tabela"></p>
-    
+    <p class="row col-7 mx-auto" id="resultado"></p>
+    <p class="row col-7 mx-auto" id="tabela"></p>
+    </div>
 </body>
 </html>
