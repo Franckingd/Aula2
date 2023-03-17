@@ -1,13 +1,14 @@
 h1{
     text-align: center;
     padding: 5%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 input{
     text-align: center;
     margin: 5%;
     border-color: black;
 }
+/*
 #resultado{
     color: white;
     background-color: rgb(76, 94, 75);
@@ -16,19 +17,42 @@ input{
     color: white;
     background-color: rgb(76, 94, 75);
 }
-
+*/
 body{
     background-color: rgb(105, 97, 85);
 }
 .container{
     background-color: rgb(175, 175, 174);
-    border-radius: 15%;
-    margin-top: 40%;
+    border-radius: 70px;
+    box-sizing: border-box;
+    box-sizing: inherit;
 }
 .text{
     text-align: center;
-    font-family:'Times New Roman', Times, serif ;
+    font-family: monospace;
 }
 ::placeholder{
     font-size: smaller;
+}
+#btnCalcImc{
+    color: white;
+    background-color: rgb(96, 58, 14);
+    border-radius: 10px;
+}
+.caixa{
+    border-radius: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: white;
+    background-color: rgb(113, 83, 54);
+    height: auto;
+    font-size: xx-large;
+    border-radius: 20px;
+}
+
+#btnCalcImc:hover{
+    background-color: #000000; 
+    transition: 0.5s;
+    opacity: 0.7;
 }
